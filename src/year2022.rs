@@ -1,7 +1,5 @@
-pub fn day1() -> () {
-    let _input = "";
-}
-
-pub fn day2() -> () {
-    println!("Puzzle day 2")
-}
+pub mod day1;
+pub mod day2;
+pub mod day3;
+pub mod day4;
+pub mod day5;
