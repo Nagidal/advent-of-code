@@ -1,3 +1,4 @@
+#![feature(iter_array_chunks)]
 use clap::Parser;
 use std::error::Error;
 
