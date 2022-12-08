@@ -6,9 +6,6 @@ use color_eyre::eyre::Report;
 struct Args {
     // Day to run
     day: Option<String>,
-    // Year
-    #[arg(default_value_t = 2022)]
-    year: u16,
 }
 
 pub fn parse_args() -> Result<(), Report> {
