@@ -31,7 +31,7 @@ fn part2() -> Result<Vec<char>, Box<dyn Error>> {
             HashSet::from_iter(second.chars()),
             HashSet::from_iter(third.chars()),
         );
-        // for a bettes solution of the intersection of multiple sets see
+        // for a better solution of the intersection of multiple sets see
         // https://www.reddit.com/r/adventofcode/comments/zbscd2/day3_is_there_a_more_idiomatic_way_to_check_the/.compact
         // or (this one does not really work:)
         // https://www.reddit.com/r/rust/comments/5v35l6/intersection_of_more_than_two_sets/.compact
